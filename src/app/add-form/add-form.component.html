@@ -1,0 +1,15 @@
+<!-- <p>add-form works!</p> -->
+
+
+<button type="button" (click)="revealAddForm()" id="addbtn" class="btn btn-outline-danger float-left d-block" #addbtn>Add User</button>
+
+<div class="d-none" id="af" #af>
+    <button type="button" (click)="hideAddForm()" class="btn btn-outline-danger">Close</button>
+    <form class=" form-inline">
+        <button type="button" class="btn btn-outline-danger">Close</button>
+        <input type="email" class=" form-control" placeholder="Email" />
+        <input type="text" class=" form-control" placeholder="FirstName" />
+        <input type="text" class=" form-control" placeholder="LastName" />
+        <button class="btn btn-success" >Add</button>
+    </form>
+</div>
